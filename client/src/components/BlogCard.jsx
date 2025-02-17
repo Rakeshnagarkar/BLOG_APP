@@ -22,9 +22,9 @@ const BlogCard = ({ props }) => {
                             </Avatar>
                             <span>{props.author.name}</span>
                         </div>
-                        {props.author.role === 'admin' &&
+                        {/* {props.author.role === '/' &&
                             <Badge variant="outline" className="bg-violet-500">Admin</Badge>
-                        }
+                        } */}
                     </div>
 
                     <div className='my-2'>
